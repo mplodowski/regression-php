@@ -12,7 +12,6 @@
     ],
     "require": {
         "php": ">=7.0",
-        "nesbot/carbon": "^1.21",
         "paragonie/random_compat": "^2.0"
     },
     "require-dev": {
