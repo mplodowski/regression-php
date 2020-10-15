@@ -58,4 +58,9 @@ class PowerRegression extends AbstractRegression implements InterfaceRegression
 
         $this->push();
     }
+    
+    public function result($x)
+    {
+        return $A * pow($x, $this->B);   
+    }
 }
