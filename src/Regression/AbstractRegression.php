@@ -42,6 +42,10 @@ abstract class AbstractRegression implements InterfaceRegression
      * @var int
      */
     protected $dimension;
+    
+    public $A;
+    
+    public $B;
 
     abstract public function calculate();
 
